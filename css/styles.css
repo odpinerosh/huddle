@@ -28,15 +28,17 @@ main {
             max-width: 65%;
         }
 
-    .imgMockup {
-        width: 100%;
-    }
 
     section {
         margin-top: 2rem;
         color: #fff;
         text-align: center;
     }
+
+        .imgMockup {
+            width: 100%;
+            margin-bottom: 3rem;
+        }
 
         h1 {
             font-family: 'Poppins', sans-serif;
@@ -98,3 +100,37 @@ main {
                 border: 1px solid #fff;
             }
 
+@media screen and (min-width: 600px) {
+
+    main {
+        width: 95%;
+        
+    }
+
+    .imgLogo {
+        width: 300px;
+        max-width: 301px;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 65% 5% 30%;
+        grid-template-rows: 100%;
+        grid-template-areas: "mockup . cont";
+        text-align: left;
+    }
+
+        .imgMockup {
+            grid-area: mockup;
+        }
+
+        .divContent {
+            grid-area: cont;
+            align-self: center;
+        }
+    
+    .social {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

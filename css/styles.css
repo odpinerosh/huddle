@@ -12,6 +12,7 @@ body {
     background-image: url("/images/bg-mobile.svg");
     background-repeat: no-repeat;
     background-color: hsl(257, 40%, 49%);
+    background-size: 100vw;
 }
 
 main {
@@ -65,8 +66,6 @@ main {
             background-color: hsl(300, 69%, 71%);
             color: #fff;
         }
-
- 
     
         footer {
             height: 10vh;

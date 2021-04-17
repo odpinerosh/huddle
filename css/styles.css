@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-image: url("/images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+}
+
+main {
+    width: 80%;
+    margin: 2rem auto;
+}
+    header {
+        margin-bottom: 3rem;
+    }    
+
+    .mockUp {
+        width: 100%;
+    }
+
+    section {
+        margin-top: 2rem;
+    }
